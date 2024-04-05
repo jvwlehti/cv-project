@@ -4,7 +4,7 @@ export const ITEMS: TimelineItem[] = [
     {
         year: 'Today',
         title: 'Junior software developer | EG Software Finland Oy',
-        duration: 'today',
+        duration: '1 year 4 months',
         details: 'Backend oriented development in Cloud-based SaaS solution for sustainability and' + 
         ' energy management software'
     },

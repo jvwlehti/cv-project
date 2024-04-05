@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 
-import { TimelineItem } from '../timelineItem';
-import { ITEMS } from '../list-timelineItems';
+import { TimelineItem } from '../../timelineItem';
+import { ITEMS } from '../../list-timelineItems';
 
 @Component({
   selector: 'app-timeline',
