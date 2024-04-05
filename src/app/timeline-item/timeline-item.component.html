@@ -1,1 +1,19 @@
-<p>timeline-item works!</p>
+<ol class=""flex flex-col md:flex-row relative border-l border-stone-700 dark:border-stone-700>
+    <li class="mb-10 ml-4">
+        <div class="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+            <span class="inline-block px-2 py-1 font-semibold text-stone-900">
+                {{timelineItem?.year}}
+            </span>
+            <h3 class="text-lg font-semibold text-stone-400">
+                {{timelineItem?.title}}
+            </h3>
+            <div class="my-1 text-sm font-normal leading-none text-stone-500">
+                {{timelineItem?.duration}}
+            </div>
+        </div>
+        <p class="my-2 text-base font-normal text-white">
+            {{timelineItem?.details}}
+        </p>
+        
+    </li>
+</ol>
