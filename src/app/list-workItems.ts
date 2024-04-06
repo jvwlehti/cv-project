@@ -2,9 +2,9 @@ import { TimelineItem } from "./timelineItem";
 
 export const WORKITEMS: TimelineItem[] = [
     {
-        year: 'Today',
+        year: '2023',
         title: 'Junior software developer | EG Software Finland Oy',
-        duration: '1 year 4 months',
+        duration: 'today',
         details: 'Backend oriented development in Cloud-based SaaS solution for sustainability and' + 
         ' energy management software'
     },
