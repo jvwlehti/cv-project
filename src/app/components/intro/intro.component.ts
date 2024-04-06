@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class IntroComponent {
   Name = 'Jere Lehtinen';
-  title = 'Junior software developer (with a electric engineer background)'
+  title = 'Junior software developer & electrical engineer'
   bio = 'This is what I have say from myself'
 }

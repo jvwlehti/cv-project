@@ -1,6 +1,6 @@
 import { TimelineItem } from "./timelineItem";
 
-export const ITEMS: TimelineItem[] = [
+export const WORKITEMS: TimelineItem[] = [
     {
         year: 'Today',
         title: 'Junior software developer | EG Software Finland Oy',

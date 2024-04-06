@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 
-import { TimelineItem } from '../../timelineItem';
-import { ITEMS } from '../../list-timelineItems';
+import { EDUCATIONITEMS } from '../../list-educationItems';
+import { WORKITEMS } from '../../list-workItems';
 
 @Component({
   selector: 'app-timeline',
@@ -10,5 +10,6 @@ import { ITEMS } from '../../list-timelineItems';
   styleUrl: './timeline.component.css'
 })
 export class TimelineComponent {
-  items = ITEMS;
+  workItems = WORKITEMS;
+  educationItems = EDUCATIONITEMS;
  };
