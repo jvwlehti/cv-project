@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 
-import { EDUCATIONITEMS } from '../../list-educationItems';
-import { WORKITEMS } from '../../list-workItems';
+import { EDUCATIONITEMS } from '../../data/list-educationItems';
+import { WORKITEMS } from '../../data/list-workItems';
 
 @Component({
   selector: 'app-timeline',

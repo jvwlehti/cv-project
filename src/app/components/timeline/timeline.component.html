@@ -1,20 +1,18 @@
-<div class="flex flex-col md:flex-row my-20 px-5">
-    <div class="flex flex-row  w-full">
-    <div>
-      <h1 class="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900 ">
-        Work experience
-    </h1>
-      <app-timeline-item *ngFor="let workItem of workItems"
-        [timelineItem]="workItem">
-      </app-timeline-item>
+<div class="container mx-auto my-20 px-5">
+  <div class="flex flex-col md:flex-row gap-8">
+    <!-- Work Experience Section -->
+    <div class="flex-1 text-center md:text-left">
+      <h1 class="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900">
+        Work Experience
+      </h1>
+      <app-timeline-item *ngFor="let workItem of workItems" [timelineItem]="workItem"></app-timeline-item>
     </div>
-    <div>
+    <!-- Education Section -->
+    <div class="flex-1 text-center md:text-left">
       <h1 class="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900">
         Education
-    </h1>
-      <app-timeline-item *ngFor="let eduItem of educationItems"
-        [timelineItem]="eduItem">
-      </app-timeline-item>
-    </div>
+      </h1>
+      <app-timeline-item *ngFor="let eduItem of educationItems" [timelineItem]="eduItem"></app-timeline-item>
     </div>
   </div>
+</div>

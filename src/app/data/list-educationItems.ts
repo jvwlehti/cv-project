@@ -1,4 +1,4 @@
-import { TimelineItem } from "./timelineItem";
+import { TimelineItem } from "../timelineItem";
 
 export const EDUCATIONITEMS: TimelineItem[] =
     [

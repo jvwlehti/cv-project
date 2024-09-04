@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './intro.component.css'
 })
 export class IntroComponent {
-  Name = 'Jere Lehtinen';
+  Name = 'Jere Lehtinen'
+  Image = '/assets/profilePic.png'
   title = 'Junior software developer & electrical engineer'
-  bio = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales urna vitae est venenatis mollis. Proin mattis lectus nisi, nec posuere quam cursus sit amet. Donec id nisl ullamcorper, luctus orci sed, elementum augue. Vestibulum a justo et dolor ornare fermentum. Curabitur et enim id massa placerat tempor. Ut posuere dignissim ultricies. '
+  bio = 'I am eager to learn and motivated by challenging myself in a variety of tasks. I value a flexible work environment that supports healthy professional growth. ' +
+  'My interests are particularly focused on backend development and cloud environments, but I also want to expand my skills in different areas of software development and combine my knowledge in information and electrical engineering.'
 }
