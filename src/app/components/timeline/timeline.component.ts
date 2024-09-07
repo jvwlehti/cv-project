@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common';
 
 import { EDUCATIONITEMS } from '../../data/list-educationItems';
 import { WORKITEMS } from '../../data/list-workItems';
