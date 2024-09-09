@@ -5,8 +5,7 @@ export const WORKITEMS: TimelineItem[] = [
         year: '2023',
         title: 'Junior software developer | EG Software Finland Oy',
         duration: 'today',
-        details: 'Backend oriented development in Cloud-based SaaS solution for sustainability and' + 
-        ' energy management software'
+        details: 'My work focuses on backend development with the .NET Framework and various Microsoft Azure services, with the main emphasis on integration development. In addition to backend development, I have gained diverse experience in areas such as Azure pipelines and REST API development. The working language has been English.'
     },
     {
         year: '2022',
@@ -19,7 +18,7 @@ export const WORKITEMS: TimelineItem[] = [
         year: '2022',
         title: 'Summer Trainee, Secondary Systems | Fingrid Oyj',
         duration: '5 months',
-        details: 'Worked as data migratior in software project'
+        details: 'The job focused on data migration as part of a RELLU development project.'
     },
     {
         year: '2019',

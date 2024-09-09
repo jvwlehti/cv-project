@@ -8,6 +8,7 @@ import { TimelineItemComponent } from './components/timeline-item/timeline-item.
 import { IntroComponent } from './components/intro/intro.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PortfolioItemComponent } from './components/portfolio-item/portfolio-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TimelineItemComponent,
     IntroComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioItemComponent
   ],
   imports: [
     BrowserModule,
