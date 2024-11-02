@@ -1,5 +1,5 @@
 import { Component, Input, input } from '@angular/core';
-import { PortfolioItem } from '../../portfolioItem';
+import { PortfolioItem } from '../../interfaces/portfolioItem';
 
 @Component({
   selector: 'app-portfolio-item',

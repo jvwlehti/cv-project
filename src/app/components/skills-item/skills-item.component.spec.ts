@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TimelineItemComponent } from './timeline-item.component';
+import { SkillsItemComponent } from './skills-item.component';
 
-describe('TimelineItemComponent', () => {
-  let component: TimelineItemComponent;
-  let fixture: ComponentFixture<TimelineItemComponent>;
+describe('SkillsItemComponent', () => {
+  let component: SkillsItemComponent;
+  let fixture: ComponentFixture<SkillsItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [TimelineItemComponent]
+      declarations: [SkillsItemComponent]
     })
     .compileComponents();
-
-    fixture = TestBed.createComponent(TimelineItemComponent);
+    
+    fixture = TestBed.createComponent(SkillsItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
