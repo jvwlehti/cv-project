@@ -9,6 +9,8 @@ import { IntroComponent } from './components/intro/intro.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortfolioItemComponent } from './components/portfolio-item/portfolio-item.component';
+import { SkillsItemComponent } from './components/skills-item/skills-item.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PortfolioItemComponent } from './components/portfolio-item/portfolio-it
     IntroComponent,
     PortfolioComponent,
     FooterComponent,
-    PortfolioItemComponent
+    PortfolioItemComponent,
+    SkillsItemComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

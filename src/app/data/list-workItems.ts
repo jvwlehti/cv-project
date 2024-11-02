@@ -24,6 +24,6 @@ export const WORKITEMS: TimelineItem[] = [
         year: '2019',
         title: 'Project Manager Intern | Caverion Oy',
         duration: '8 months',
-        details: 'worked as a project manager intern in hospital project'
+        details: 'worked as a project manager intern in Nova hospital project'
     },
 ]
