@@ -12,5 +12,4 @@ import {SKILLSITEMS} from "../../data/list-skillsItems";
 export class TimelineComponent {
   workItems = WORKITEMS;
   educationItems = EDUCATIONITEMS;
-  skillItems = SKILLSITEMS;
  };
