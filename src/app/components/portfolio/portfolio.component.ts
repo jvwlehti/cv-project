@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { PORTOLIOITEMS } from '../../data/list-portofolioItems';
 
 @Component({
