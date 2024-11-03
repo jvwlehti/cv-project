@@ -2,11 +2,11 @@
   [href]="portfolioItem?.link"
   target="_blank"
   rel="noopener noreferrer"
-  class=" dark:border-white rounded-md overflow-hidden"
 >
   <img
     [src]="portfolioItem?.imgUrl"
     alt="portfolio"
-    class="w-full h-12 md:h-12 object-cover cursor-pointer"
+    class="h-12 md:h-12 object-cover cursor-pointer transform transition-transform duration-300 hover:scale-110 will-change-transform"
+    style="backface-visibility: hidden;"
   />
 </a>
