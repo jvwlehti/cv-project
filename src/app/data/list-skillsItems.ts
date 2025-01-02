@@ -54,6 +54,10 @@ export const SKILLSITEMS: SkillItem[] =
       name: 'React JS',
       link: 'https://react.dev/'
     },
+    {
+      name: 'GraphQL',
+      link: 'https://graphql.org/'
+    }
   ]
 
 

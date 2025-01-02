@@ -4,7 +4,7 @@ export const WORKITEMS: TimelineItem[] = [
     {
         year: '2023',
         title: 'Junior software developer | EG Software Finland Oy',
-        duration: 'today',
+        duration: '2 years',
         details: 'My work focuses on backend development with the .NET Framework and various Microsoft Azure services, with the main emphasis on integration development. In addition to backend development, I have gained diverse experience in areas such as Azure pipelines and REST API development. The working language has been English.'
     },
     {
